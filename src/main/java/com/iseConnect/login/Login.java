@@ -39,10 +39,7 @@ public class Login extends HttpServlet {
 //			rd.forward(request, response);
 			response.getWriter().print("Welcome");
 		}else {
-			out.print("<script>" +
-		            "alert('Authentication Failed!');" +
-		            "window.location.href = 'Login.jsp';" + 
-		            "</script>");
+			response.getWriter().print("Login Failed");
 		}
 	}
 
