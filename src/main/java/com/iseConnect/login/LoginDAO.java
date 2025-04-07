@@ -42,9 +42,9 @@ public class LoginDAO {
     }
 
     public Connection getConnection() {
-        String url = "jdbc:postgresql://localhost:5432/iseconnect";
-        String username = "postgres";
-        String password = "root"; // Replace with your PostgreSQL password
+        String url = "postgresql://iseconnect_user:14rKyqn55ZrJaohX4lTzQawAZoaXW7lW@dpg-cvq4cv3e5dus73f1bg7g-a.oregon-postgres.render.com/iseconnect";
+        String username = "iseconnect_user";
+        String password = "14rKyqn55ZrJaohX4lTzQawAZoaXW7lW"; // Replace with your PostgreSQL password
 
         try {
             Class.forName("org.postgresql.Driver");
