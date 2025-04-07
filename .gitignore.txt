@@ -1,0 +1,19 @@
+# Ignore compiled files
+*.class
+
+# Ignore WAR or JAR files if you build them frequently
+*.war
+*.jar
+
+# IntelliJ / Eclipse / NetBeans
+.idea/
+*.iml
+*.ipr
+*.iws
+target/
+build/
+out/
+
+# OS-specific
+.DS_Store
+Thumbs.db
