@@ -42,7 +42,7 @@ public class LoginDAO {
     }
 
     public Connection getConnection() {
-        String url = "postgresql://iseconnect_user:14rKyqn55ZrJaohX4lTzQawAZoaXW7lW@dpg-cvq4cv3e5dus73f1bg7g-a.oregon-postgres.render.com/iseconnect";
+    	String url = "jdbc:postgresql://dpg-cvq4cv3e5dus73f1bg7g-a.oregon-postgres.render.com:5432/iseconnect";
         String username = "iseconnect_user";
         String password = "14rKyqn55ZrJaohX4lTzQawAZoaXW7lW"; // Replace with your PostgreSQL password
 
